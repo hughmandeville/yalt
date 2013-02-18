@@ -1,7 +1,7 @@
 INTRODUCTION
 ============
 
-This directory contains all the files for the youarelistening.to site (aka YALT).
+This directory contains all the files for the youarelistening.to site.
 
 FILES AND DIRECTORIES
 =====================
@@ -10,8 +10,7 @@ FILES AND DIRECTORIES
    bin/                  Server side scripts (cron jobs, ...).
    common.php            Contains shared PHP utility functions.
    css/                  Style sheets.
-   data/                 Data file (feed files, ...).
-   fb.html               youarelistening.to/fb page.
+   data/                 Data files (feed files, ...).
    img/                  Images.
    js/                   Javascript files.
    nyt.html              youarelistening.to/nyt page.
