@@ -11,8 +11,8 @@
 DATA_DIR="../data/"
 TEMP_DATA_FILE="${DATA_DIR}temp_nyt.json"
 DATA_FILE="${DATA_DIR}nyt.json"
-#URL="http://api.nytimes.com/svc/news/v3/all/recent.json?order=updated_date&api-key=849377a612159d6f095e5b41fd683fd7%3a1%3a61208313"
-URL="http://api.nytimes.com/svc/news/v3/all/recent.json?order=updated_date&api-key=<your Times Newswire API key>"
+#URL="http://api.nytimes.com/svc/news/v3/all/recent.json?order=updated_date&api-key=<your Times Newswire API key>"
+URL="http://api.nytimes.com/svc/news/v3/all/recent.json?order=updated_date&api-key=849377a612159d6f095e5b41fd683fd7%3a1%3a61208313"
 
 
 # Check if this process is already running, if so just return.
