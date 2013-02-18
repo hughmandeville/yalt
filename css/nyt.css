@@ -1,0 +1,302 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+
+.fb_iframe_widget iframe {
+ top: -4px !important;
+}
+
+body {
+  background-color: #000 !important;
+  background: url(http://graphics8.nytimes.com/packages/images/nytint/timespace/times_building.jpeg) no-repeat fixed center top;
+  background-size: 100%;
+  -moz-background-size: 100%; /* Firefox */
+}
+.c a, .rrline, .c br {
+ display: none !important;
+}
+.c {
+ float: right;
+ width: 330px;
+ height: 49px;
+ overflow: hidden;
+ clear: both;
+ margin-top: 10px;
+ }
+#bodyBigtext{
+ font-family: 'Cabin', arial, serif;
+ color: #eea451;
+ font-size: 75px;
+ line-height: 90px;
+ height: 10px;
+ overflow: visible;
+ padding-top: 10px;
+}
+
+#citiesText{
+ font-family: 'Cabin', arial, serif;
+ color: #000;
+ font-size: 18px;
+ padding: 5px;
+ height: 130px;
+ overflow: hidden;
+ top: 300px;
+ position: absolute;
+ background: #fff;
+ opacity: 0.80;
+}
+
+#citiesText a {
+
+ color: #C49941;
+
+}
+
+#citiesText a:visited {
+
+ color: #C49941;
+
+}
+
+.myCities {
+
+ opacity: 1 !important;
+ padding-bottom: 10px;
+
+}
+
+#socialHolder{
+ position: absolute;
+ top: 430px;
+ padding-top: -2px;
+ background: #fff;
+ opacity: 0.90;
+ display: none;
+}
+#bodyContainer{
+ width: 850px;
+ margin-left: auto;
+ margin-right: auto;
+}
+#bodyAlert{
+ width: 850px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Cabin', arial, serif;
+ color: #C49941;
+ font-size: 16px;
+ padding-top: 10px;
+ height: 30px;
+}
+
+#bodyAlert a {
+ color: #e6bb63;
+}
+
+#bodyAlertBig {
+ width: 850px;
+ display: none;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Cabin', arial, serif;
+ color: #000;
+ font-size: 14px;
+ margin-top: 10px;
+ padding-right: 2px;
+ padding-left: 88px;
+ height: 80px;
+ border: 1px solid grey;
+ background-color: #fff !important;
+ background: url(http://youarelisteningtolosangeles.com/images/eric80v2.png) no-repeat left top;
+ opacity: 0.90;
+}
+
+#bodyAlertBig iframe {
+
+ vertical-align: 0px !important;
+ margin-top: 2px;
+}
+
+.twitter-share-button{
+
+height: 24px !important;
+
+}
+
+#bodySubContainer{
+ width:850px;
+ height: 700px;
+ overflow-y: auto;
+ opacity: 1;
+}
+
+#showBody, #hideBody {
+ font-family: 'Cabin', arial, serif;
+ font-size: 36px;
+ color: white;
+ float: right;
+ width: 18px;
+ height: 36px;
+ margin-bottom: 5px;
+}
+
+#showBody a, #hideBody a {
+ text-decoration: none;
+ color: white;
+}
+
+#closeAppeal {
+ font-family: 'Cabin', arial, serif;
+ font-size: 18px;
+ color: red;
+ float: right;
+ width: 18px;
+ height: 18px;
+ margin-top: 3px;
+ background-color: #fff !important;
+ background: url(http://youarelisteningtolosangeles.com/images/closeAppeal.png) no-repeat center top;
+}
+
+#closeAppeal a {
+ text-decoration: none;
+ color: black;
+}
+
+#showBody a:hover, #hideBody a:hover {
+ color: yellow;
+}
+
+.sc-photo, .specialThanks{
+  width : 320px;
+  padding: 5px;
+  height: 40px;
+  overflow: hidden;
+  z-index: 500;
+  background: #fff;
+  opacity: 0.65;
+  float: right;
+  clear: both;
+  margin-top: 10px;
+  font: 12px Arial, sans-serif;
+ color: black;
+ font-size: 0.8em;
+ font-weight: bold;
+ line-height: 1.6em;
+}
+
+#nyt_div {
+  width : 320px;
+  padding: 5px;
+  z-index: 500;
+  background: #fff;
+  opacity: 0.65;
+  float: right;
+  clear: both;
+  margin-top: 10px;
+  font: 12px Arial, sans-serif;
+  color: black;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1.6em;
+}
+
+#nyt_headlines_div {
+ width: 310px;
+ height: 240px;
+ overflow-y: auto;
+ overflow-x: hidden;
+}
+
+#nyt_logo {
+ height: 24px;
+ text-align: left;
+ float: left;
+ margin-top: -4px;
+}
+#nyt_title {
+ color: #333;
+ float: left;
+ font-family: georgia,"times new roman",times,serif;
+ margin-bottom: 4px;
+}
+
+.nyt_article td {
+ vertical-align: top;
+ font-family: georgia,"times new roman",times,serif;
+}
+.nyt_article a {
+ text-decoration: none;
+ color: #004276;
+}
+.nyt_article a:hover {
+ text-decoration: underline;
+}
+.nyt_article a:visited {
+ color: #669;
+}
+.nyt_article .headline {
+ font-size: 16px;
+ line-height: 15px;
+ font-weight: bold;
+}
+.nyt_article .byline {
+ font-size: 12px;
+ line-height: 14px;
+ color: #808080; 
+ font-family: arial,helvetica,sans-serif;
+}
+
+.nyt_article .time {
+ color: #333;
+ font-size: 12px;
+}
+.nyt_article .summary {
+ margin-top: 2px;
+ margin-bottom: 2px;
+ color: #333;
+ font-size: 14px;
+ line-height: 16px;
+ font-family: georgia,"times new roman",times,serif;
+}
+.nyt_article img {
+ width: 75px;
+ height: 75px;
+}
+
+.nyt_article {
+ border-top: 1px solid #d0d0d0;
+ padding: 4px 0;
+}
+#nyt_div:hover {
+ opacity: 1.0;
+}
+.nyt_article:hover {
+ background: #f0f0f0;
+}
+
+.twtr-widget {
+width:330px;
+float: right;
+clear: both;
+margin-top: 10px;
+
+}
+
+.twtr-ft, .twtr-hd {
+
+display: none !important;
+
+}
+
+.twtr-doc {
+
+opacity: 0.90 !important;
+
+}
+
+.twtr-timeline {
+
+opacity: 1 !important;
+
+}
+
+
+
